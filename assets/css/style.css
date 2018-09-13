@@ -21,11 +21,31 @@
     }
 }
 /* overwriting bootstrap styling */
-main {
+/* main {
     padding: 60px 0;
+} */
+section.carousel {
+    padding-top: 60px;
 }
-.carousel-item img {
-    height: 550px;
+@media (min-width: 1200px) {
+    .carousel-item img {
+        height: 550px;
+    }
+}
+@media (max-width: 450px) {
+    .carousel-item img {
+        height: 220px;
+    }
+}
+@media (min-width: 1200px) {
+    .circles__figure {
+        height: 550px;
+    }
+}
+@media (max-width: 450px) {
+    .circles__figure {
+        height: 220px;
+    }
 }
 section.travel {
     padding: 60px 0;
@@ -43,6 +63,7 @@ section.travel {
     height: 200px;
     width: 200px;
 }
+
 .circles__figure img {
     height: 100%;
     width: 100%;
@@ -52,12 +73,15 @@ section.travel {
 section.testimonial {
     padding: 60px 0;
 }
+.form__wrapper {
+    padding: 50px 0 50px 0;
+  }
 .form__fill {
-  display: flex; 
-  flex-direction: column; 
-  justify-content: center; 
+    max-width: 300px;
+    margin: 0 auto;
+  /* display: flex;  */
+  /* flex-direction: column;  */
+  /* justify-content: center;  */
   padding: 20px; 
 }
-.form__wrapper {
-  padding: 50px  500px 0;
-}
+

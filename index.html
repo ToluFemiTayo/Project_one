@@ -61,9 +61,14 @@
       </section>
       <!-- Travel cards -->
       <section class="travel">
+        <div class="section__heading mb-4">
+          <h3 class="text-center">
+            Journey
+          </h3>
+        </div>
         <div class="row">
           <!-- Cards inside each -->
-          <div class="col">
+          <div class="col-12 col-sm-6 col-md-4">
             <div class="card">
               <img class="card-img-top" src="assets/img/site.jpeg" alt="Card image cap">
               <div class="card-body">
@@ -73,7 +78,7 @@
               </div>
             </div>
           </div>
-          <div class="col">
+          <div class="col-12 col-sm-6 col-md-4">
             <div class="card">
               <img class="card-img-top" src="assets/img/travel.jpg" alt="Card image cap">
               <div class="card-body">
@@ -83,7 +88,7 @@
               </div>
             </div>
           </div>
-          <div class="col">
+          <div class="col-12 col-sm-6 col-md-4">
             <div class="card">
               <img class="card-img-top" src="assets/img/solo.jpg" alt="Card image cap">
               <div class="card-body">
@@ -99,8 +104,13 @@
     <!-- Testimonial -->
     <section class="testimonial bg-dark">
       <div class="container">
+        <div class="section__heading mb-4">
+          <h3 class="text-center text-white">
+            Testimonial
+          </h3>
+        </div>
         <div class="row">
-          <div class="col">
+          <div class="col-12 col-sm-6 col-md-4">
             <!-- circles -->
             <div class="circles">
               <figure class="circles__figure">
@@ -114,7 +124,7 @@
               </div>
             </div>
           </div>
-          <div class="col">
+          <div class="col-12 col-sm-6 col-md-4">
             <div class="circles">
               <figure class="circles__figure">
                 <img src="assets/img/01-shutterstock_476340928-Irina-Bg-1024x683.jpg" alt="">
@@ -127,7 +137,7 @@
               </div>
             </div>
           </div>
-          <div class="col">
+          <div class="col-12 col-sm-6 col-md-4">
             <div class="circles">
               <figure class="circles__figure">
                 <img src="assets/img/01-shutterstock_476340928-Irina-Bg-1024x683.jpg" alt="">
@@ -140,33 +150,43 @@
               </div>
             </div>
           </div>
-
         </div>
       </div>
     </section>
     <!-- form fill -->
     <section class="form__wrapper">
-      <form class="form__fill shadow-lg border rounded border-secondary">
-        <div class="form-group">
-          <label for="formGroupName">Name:</label>
-          <input type="text" class="form-control" id="formGroupEnteryourfullname" placeholder="Enter your full name">
+      <div>
+        <div class="section__heading mb-4">
+          <h3 class="text-center">
+            Form
+          </h3>
         </div>
-        <div class="form-group">
-          <label for="exampleFormControlInput1">Email address:</label>
-          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-        </div>
-        <div class="form-group">
-          <label for="exampleFormControlTextarea1">Message:</label>
-          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-        </div>
-        <div>
-          <button type="button" class="btn btn-outline-primary">Submit</button>
-        </div>
-      </form>
+        <form class="form__fill shadow-lg border rounded border-secondary">
+          <div class="form-group">
+            <label for="formGroupName">Name:</label>
+            <input type="text" class="form-control" id="formGroupEnteryourfullname" name="name" placeholder="Enter your full name">
+            <small class="form-text d-none">Your name is less two words.</small>
+          </div>
+          
+          <div class="form-group">
+            <label for="exampleFormControlInput1">Email address:</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" name="email" placeholder="name@example.com">
+            <small class="form-text d-none">Your .</small>            
+          </div>
+          <div class="form-group">
+            <label for="exampleFormControlTextarea1">Message:</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" name="message" rows="3" placeholder="Type your message here"></textarea>
+            <small class="form-text d-none">Your name is less two words.</small>            
+          </div>
+          <div>
+            <button type="button" class="btn btn-outline-primary">Submit</button>
+          </div>
+        </form>
+      </div>
     </section>
   </main>
-  <footer class="bg-secondary">
-    <section class="text-center text-white">
+  <footer>
+    <section class="bg-secondary text-center text-white">
       @copyright 2018
     </section>
   </footer>
