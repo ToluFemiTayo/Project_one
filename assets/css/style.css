@@ -84,4 +84,9 @@ section.testimonial {
   /* justify-content: center;  */
   padding: 20px; 
 }
-
+.footer {
+    height: 200px;
+}
+.footer__section {
+    padding: 60px;
+}
