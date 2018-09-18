@@ -42,7 +42,14 @@ var keyupHandler = function (e) {
     else {
       this.classList.remove("is-invalid");
     }
+  };
+  if (e.target.name === "message" && e.target.value.length < 10) { 
+    // console.log("message");
+    this.classList.add("is-invalid");
   }
+  else {
+    this.classList.remove("is-invalid");
+  };
 };
 _inputs.forEach(function (eachInputs) {
   eachInputs.addEventListener("keyup", keyupHandler);
