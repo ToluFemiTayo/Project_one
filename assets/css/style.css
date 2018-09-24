@@ -115,11 +115,10 @@ main {
     padding: 60;
 }
 .footer__ul {
-    list-style-image: url("");
+    /* list-style-image: url(""); */
 }
 .footer__ul2 {
     list-style-type: none; 
-    /* list-style-image: url("assets/img/icons/right-arrow-white-button.png"); */
 }
 .footer__ul3 {
     /* list-style-image: url("assets/img/icons/right-arrow-white-button.png"); */
