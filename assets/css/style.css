@@ -2,11 +2,17 @@
 .carousel__capt {
     height: 600px;
 }
-.carousel__heading {
+.carousel__hd {
     padding: 60px;
 }
 .textcolor__carouselh1 {
     color: rgb(126, 70, 39);
+}
+.carousel__content1 {
+    padding: 60px;
+}
+.carousel__content2 {
+    padding: 20px 60px;
 }
 .carousel__indtrs {
     height: 40px;
@@ -20,6 +26,9 @@
 main {
     padding: 60px;
 }
+.card__img {
+    padding-bottom: 2px;
+}
 .section__img {
     padding-bottom: 60px;
 }
@@ -32,10 +41,9 @@ main {
 .heading__hd2 {
     height: 60px;
 }
-.heading__letterspacing {
+.hd__letrsp {
     letter-spacing: 2px;
 }
-
 .longline {
     width: 250px;
     height: 20px;
@@ -63,12 +71,29 @@ main {
 /* first main section */
 
 
+/* second main section */
+.featuredprod__userwrapper {
+    width: 250px;
+    height: 40px;;
+}
+.featuredprod__userresponse {
+    width: 250px;
+    height: 40px;
+}
+/* second main section */
+
+
+
 /* third main section */
 .blog__imgtext {
     padding: 0;
 }
-.blog__userdetails{
-    width: 40px;
+.blog__bloggerwrapper {
+    width: 250px;
+    height: 40px;;
+}
+.blog__bloggerdetails {
+    width: 250px;
     height: 40px;
 }
 /* third main section */
@@ -108,6 +133,9 @@ main {
 .footer_searchbg {
     background-color: rgb(126, 70, 39);
 }
+.footer__navlink {
+    padding-right: 20px;
+}
 .footer__mediaiconsi {
     height: 20px;
 }
@@ -116,4 +144,3 @@ main {
     width: 30px;
 }
 /* footer */
-
