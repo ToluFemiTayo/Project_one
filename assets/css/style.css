@@ -31,16 +31,17 @@ figure img {
 
 
 /* main: body */
+
 main {
     padding: 60px;
+}
+.wrapper {
+    padding: 0 0 60px 0;
 }
 .fd__heading {
     width: 90px;
     height: 40px;
     padding: 10px;
-}
-.section__img {
-    padding-bottom: 60px;
 }
 .icon__heading {
     width: 300px;
@@ -58,92 +59,86 @@ main {
 
 
 /* first main section */
+.first__wrapper {
+    height: 570px;
+    padding: 0 0 60px 0;
+}
+
 .card__wrapper1 {
+    height: 250px;
+    width: 500px;
     padding: 0;
 }
+.card__wrapper1 img {
+    height: 100%; 
+    width: 100%;   
+}
 .card__img1 {
-    height: 300px;
+    height: 260px;
 }
 .card__col1img1 {
-    width: 580px;
+    width: 570px;
     padding: 0 10px 10px 0;
 }
 .card__col1img2 {
-    width: 280px;
+    width: 285px;
     padding: 0 10px 10px 0;
 }
 .card__col1img3 {
-    width: 280px;
+    width: 285px;
     padding: 0 0 10px 0;
 }
 .card__col2img1 {
-    width: 750px;
-    padding: 0 10px 0 0;
+    width: 760px;
+    padding: 0 10px 10px 0;
 }
 .card__col2img2 {
-    width: 390px;
-    padding: 0;
+    width: 380px;
+    padding: 0 0 10px 0;
 }
 /* first main section */
 
 
 /* second main section: featured products */
-.card__img2 {
-    height: 280px;
+.second__wrapper {
+    height: 425px;
+    padding: 0 0 60px 0;
 }
-.card__wrapper2 {
-    padding: 0;
-}
-.card__ftdimg1 {
+.featuredprod__wrapper2 {
+    width: 278px;
+    height: 250px;
     padding: 0 10px 10px 0;
 }
-.card__ftdimg2 {
-    padding: 0 0 10px;
-}
-.featuredprod__userwrapper {
-    width: 274px;
-    height: 40px;;
-}
-.featuredprod__userresponse {
-    width: 250px;
-    height: 40px;
-}
-/* second main section: featured products */
-
-
-/* third main section: latest from blog */
-.card__img3 {
-    padding: 0;
-}
-.card__wrapper3 {
+.card__endwrapper2 {
     padding: 0 10px 0 0;
 }
-.latestfb__cdt {
+.feature__endwrapper2 {
+  padding: 0 10px 10px 0;
+}
+.featuredprod__wrapper2 img{
+    width: 100%;
+    height: 100%;
+}
+.featuredprod__userwrapper {
+    width: 275px;
+    height: 20px;;
+}
+.featuredprod__text {
     margin: 0;
     padding: 10px 0;
 }
-.longline {
-    width: 277px;
+.featuredprod__userresponse {
+    width: 275px;
     height: 20px;
 }
-.blog__imgtext {
-    padding: 0;
-}
-.blog__bloggerwrapper {
-    width: 277px;
-    height: 40px;;
-}
-.blog__bloggerdetails {
-    width: 277px;
-    height: 40px;
-}
-.blog__icon {
-    padding: 4px;
-} 
+
+
+/* third main section: latest from blog */
 /* third main section: latest from blog */
 
 
 /* fourth main section: our brands */
+
 .card__wrapper4 {
     padding: 0 10px 0 0;
 }
@@ -154,59 +149,62 @@ main {
 
 
 /* footer */
-/* overwrite bootstrap */
-@font-awesome {
-    .footer__ul3 {
-        display: list-item;
-        list-style-position: outside;
-        color: #FFFFFF !important;
-        size: 2px;
-    }   
-}
-@font-awesome {
-    .footer__ul {
-        display: list-item;
-        list-style-position: outside; 
-        color: #FFFFFF !important;
-        size: 2px;
-    }    
-}
-/* overwrite bootstrap */
-
 .footer {
-    height: 450px;
+    height: 500px;
 }
 .footer__wrapper1 {
     padding: 60px 60px 0;
 }
 .footer__wrapper2 {
-    padding-top: 10px;
-    padding-left: 120px;
-    padding-right: 120px;   
+    padding:  10px 120px 20px;  
+}
+.footer__icon1 {
+  padding: 10px;
+}
+.footer__fontawesome {
+  margin-right: 20px;
 }
 .footer_secondsection {
     padding: 60px;
 }
+.footer__ul1 {
+  list-style-type: none;
+  text-decoration: none;
+  padding: 0 0 20px 0;
+}
+.footer__colul {
+  width: 400px;
+  height: 260px;
+  padding: 0;
+}
 .footer__ul2 {
-    list-style-type: none; 
+  text-decoration: none;
+  list-style-type: none;
+  padding: 0;
+  margin: 0; 
 }
-.footer__ul3lenght {
-    width: 300px;
+.footer__ul3 {
+  list-style-type: none;
+  text-decoration: none;
+  padding: 0;
 }
-.footer__ullenght {
-    width: 250px;
+.footer__heading {
+  margin: 30px;
 }
-.footer_searchinput {
-    height: 34px;
+.footer__ullenght1 {
+  width: 280px;
+}
+.footer__ullenght3 {
+  width: 260px;
+}
+.footer_searchinput { 
+  height: 34px;
 }
 .footer_searchbg {
-    background-color: rgb(126, 70, 39);
+  background-color: rgb(126, 70, 39);
 }
-/* .footer__bordcolor {
-    color: rgb(96, 96, 109) !important;
-} */
 .footer__navlink {
-    padding-right: 20px;
+  padding-right: 20px;
 }
 .footer__mediaiconsi {
     height: 20px;

@@ -8,7 +8,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="assets/plugins/bootstrap/css/bootstrap.css" rel="stylesheet" type="text/css" />
   <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
-  <link href="assets/plugins/font-awesome.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+    crossorigin="anonymous">
 </head>
 
 <body>
@@ -56,31 +57,33 @@
     </section>
   </header>
   <main>
+    <!-- first main section: cards here -->
     <section class="container">
-      <!-- first main section: cards here -->
-      <section class="section__img">
+      <section class="first__wrapper">
         <div class="row">
-          <div class="col card__wrapper1">
+          <div class="col-md-6 card__wrapper1">
             <img class="card__img1 card__col1img1" src="assets/img/products/pexels3.jpeg" />
           </div>
-          <div class="col card__wrapper1">
+          <div class="col-md-3 card__wrapper1">
             <img class="card__img1 card__col1img2" src="assets/img/products/pexels4.jpeg" />
           </div>
-          <div class="col card__wrapper1">
+          <div class="col-md-3 card__wrapper1 card__endwrapper2">
             <img class="card__img1 card__col1img3" src="assets/img/products/pexels5.jpeg" />
           </div>
           <div class="w-100"></div>
-          <div class="col card__wrapper1">
+          <div class="col-md-8 card__wrapper1">
             <img class="card__img1 card__col2img1" src="assets/img/products/pexels.jpeg" />
           </div>
-          <div class="col card__wrapper1">
+          <div class="col-md-4 card__wrapper1 card__endwrapper2">
             <img class="card__img1 card__col2img2" src="assets/img/products/pexels2.jpeg" />
           </div>
         </div>
       </section>
+    </section>
 
-      <!-- second main section: featured products here -->
-      <section class="section__img">
+    <!-- second main section: featured products here -->
+    <section class="container">
+      <div class="second__wrapper">
         <div class="text-center">
           <h5 class="text-dark font-weight-bold heading__letterspacing heading__hd1">
             FEATURED PRODUCTS
@@ -92,15 +95,13 @@
           </p>
         </div>
         <div class="row">
-          <div class="col card__wrapper2">
-            <img class="d-block w-100 card__img2 card__ftdimg1" src="assets/img/products/pexels8.jpg" alt="">
-            <div class="font-weight-bold">
-              <P>Light House Shoes</P>
-            </div>
-            <div class="featuredprod__userwrapper">
+          <div class="col-sm-6 col-md-3 featuredprod__wrapper2">
+            <img src="assets/img/products/pexels8.jpg" alt="Card image cap">
+            <P class="font-weight-bold featuredprod__text">Light House Shoes</P>
+            <div>
               <small class="featuredprod__userresponse">
                 <span class="text-danger float-left font-weight-bold">90</span>
-                <div class="float-right">
+                <div class="d-flex just float-right">
                   <img src="assets/img/icons/star.png" alt="">
                   <img src="assets/img/icons/star.png" alt="">
                   <img src="assets/img/icons/star.png" alt="">
@@ -110,15 +111,15 @@
               </small>
             </div>
           </div>
-          <div class="col card__wrapper2">
-            <img class="d-block w-100 card__img2 card__ftdimg1" src="assets/img/products/pexels9.jpg" alt="">
-            <div class="font-weight-bold">
-              <P>Light House Shoes</P>
-            </div>
-            <div class="featuredprod__userwrapper">
+          <div class="col-sm-6 col-md-3 featuredprod__wrapper2">
+            <!-- <figure class=""> -->
+            <img src="assets/img/products/pexels9.jpg" alt="Card image cap">
+            <!-- </figure> -->
+            <P class="font-weight-bold featuredprod__text">Light House Shoes</P>
+            <div>
               <small class="featuredprod__userresponse">
                 <span class="text-danger float-left font-weight-bold">90</span>
-                <div class="float-right">
+                <div class="d-flex just float-right">
                   <img src="assets/img/icons/star.png" alt="">
                   <img src="assets/img/icons/star.png" alt="">
                   <img src="assets/img/icons/star.png" alt="">
@@ -128,15 +129,15 @@
               </small>
             </div>
           </div>
-          <div class="col card__wrapper2">
-            <img class="d-block w-100 card__img2 card__ftdimg1" src="assets/img/products/fash.jpeg" alt="">
-            <div class="font-weight-bold">
-              <P>Light House Shoes</P>
-            </div>
-            <div class="featuredprod__userwrapper">
+          <div class="col-sm-6 col-md-3 featuredprod__wrapper2">
+            <!-- <figure class=""> -->
+            <img src="assets/img/products/fash.jpeg" alt="Card image cap">
+            <!-- </figure> -->
+            <P class="font-weight-bold featuredprod__text">Light House Shoes</P>
+            <div>
               <small class="featuredprod__userresponse">
                 <span class="text-danger float-left font-weight-bold">90</span>
-                <div class="float-right">
+                <div class="d-flex just float-right">
                   <img src="assets/img/icons/star.png" alt="">
                   <img src="assets/img/icons/star.png" alt="">
                   <img src="assets/img/icons/star.png" alt="">
@@ -146,15 +147,13 @@
               </small>
             </div>
           </div>
-          <div class="col card__wrapper2">
-            <img class="d-block w-100 card__img2 card__ftdimg2" src="assets/img/products/fashion.jpeg" alt="Second slide">
-            <div class="font-weight-bold">
-              <P>Light House Shoes</P>
-            </div>
-            <div class="featuredprod__userwrapper">
+          <div class="col-sm-6 col-md-3 featuredprod__wrapper2 feature__endwrapper2">
+            <img src="assets/img/products/fashion.jpeg" alt="Card image cap">
+            <P class="font-weight-bold featuredprod__text">Light House Shoes</P>
+            <div>
               <small class="featuredprod__userresponse">
                 <span class="text-danger float-left font-weight-bold">90</span>
-                <div class="float-right">
+                <div class="d-flex just float-right">
                   <img src="assets/img/icons/star.png" alt="">
                   <img src="assets/img/icons/star.png" alt="">
                   <img src="assets/img/icons/star.png" alt="">
@@ -165,10 +164,12 @@
             </div>
           </div>
         </div>
-      </section>
+      </div>
+    </section>
 
-      <!-- third main section: latest from blog here -->
-      <section class="section__img">
+    <!-- third main section: latest from blog here -->
+    <section class="container">
+      <div class="third__wrapper">
         <div class="text-center">
           <h5 class="text-dark font-weight-bold heading__letterspacing heading__hd1">
             LATEST FROM BLOG
@@ -179,116 +180,46 @@
             <img class="fd__heading" src="assets/img/icons/substract.png" alt="" />
           </p>
         </div>
-        <div class="row">
-          <div class="col card__wrapper3">
-            <div class="card__img3">
-              <img class="card-img-top" src="assets/img/background_1.jpeg" alt="Card image cap">
-              <div class="card-body text-justify blog__imgtext">
-                <h5 class="card-title font-weight-bold latestfb__cdt">WHAT IS LOREM IPSUM?</h5>
-                <p class="card-text">Lorem Ipsum is simple the dummy text of the printing and typesetting industry. Lorem Ipsum has been ...</p>
-              </div>
-              <img class="longline" src="assets/img/icons/substract.png" alt="" />
-              <div class="blog__bloggerwrapper">
-                <div class="d-inline blog__bloggerdetails">
-                  <img class="blog__icon" src="assets/img/icons/calendar.png" alt="" />
-                  <small>2018-09-27/12:59</small>
-                  <img class="blog__userdetails" src="assets/img/icons/upward-slash.png" alt="" />
-                  <img class="blog__userdetails" src="assets/img/icons/messenger.png" alt="" /> 0 comments
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col card__wrapper3">
-            <div class="card__img3">
-              <img class="card-img-top" src="assets/img/background_1.jpeg" alt="Card image cap">
-              <div class="card-body text-justify blog__imgtext">
-                <h5 class="card-title font-weight-bold latestfb__cdt">WHAT IS LOREM IPSUM?</h5>
-                <p class="card-text">Lorem Ipsum is simple the dummy text of the printing and typesetting industry. Lorem Ipsum has been ...</p>
-              </div>
-              <img class="longline" src="assets/img/icons/substract.png" alt="" />
-              <div class="blog__bloggerwrapper">
-                <div class="d-inline blog__bloggerdetails">
-                  <img class="blog__icon" src="assets/img/icons/calendar.png" alt="" />
-                  <small>2018-09-27/12:59</small>
-                  <img class="blog__userdetails" src="assets/img/icons/upward-slash.png" alt="" />
-                  <img class="blog__userdetails" src="assets/img/icons/messenger.png" alt="" /> 0 comments
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col card__wrapper3">
-            <div class="card__img3">
-              <img class="card-img-top card__img3" src="assets/img/background_1.jpeg" alt="Card image cap">
-              <div class="card-body text-justify blog__imgtext">
-                <h5 class="card-title font-weight-bold latestfb__cdt">WHAT IS LOREM IPSUM?</h5>
-                <p class="card-text">Lorem Ipsum is simple the dummy text of the printing and typesetting industry. Lorem Ipsum has been ...</p>
-              </div>
-              <img class="longline" src="assets/img/icons/substract.png" alt="" />
-              <div class="blog__bloggerwrapper">
-                <div class="d-inline blog__bloggerdetails">
-                  <img class="blog__icon" src="assets/img/icons/calendar.png" alt="" />
-                  <small>2018-09-27/12:59</small>
-                  <img class="blog__userdetails" src="assets/img/icons/upward-slash.png" alt="" />
-                  <img class="blog__userdetails" src="assets/img/icons/messenger.png" alt="" /> 0 comments
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col card__endwrapper">
-            <div class="card__img3">
-              <img class="card-img-top" src="assets/img/background_1.jpeg" alt="Card image cap">
-              <div class="card-body text-justify blog__imgtext">
-                <h5 class="card-title font-weight-bold latestfb__cdt">WHAT IS LOREM IPSUM?</h5>
-                <p class="card-text">Lorem Ipsum is simple the dummy text of the printing and typesetting industry. Lorem Ipsum has been ...</p>
-              </div>
-              <img class="longline" src="assets/img/icons/substract.png" alt="" />
-              <div class="blog__bloggerwrapper">
-                <div class="d-inline blog__bloggerdetails">
-                  <img class="blog__icon" src="assets/img/icons/calendar.png" alt="" />
-                  <small>2018-09-27/12:59</small>
-                  <img class="blog__userdetails" src="assets/img/icons/upward-slash.png" alt="" />
-                  <img class="blog__userdetails" src="assets/img/icons/messenger.png" alt="" /> 0 comments
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
 
-      <!-- fourth main section our brands here -->
-      <section>
-        <div class="text-center">
-          <h5 class="text-dark font-weight-bold heading__letterspacing heading__hd1">
-            OUR BRANDS
-          </h5>
-          <p class=" d-inline">
-            <img class="fd__heading" src="assets/img/icons/substract.png" alt="" />
-            <img src="assets/img/icons/down-arrow-black-button.png" alt="" />
-            <img class="fd__heading" src="assets/img/icons/substract.png" alt="" />
-          </p>
-        </div>
-        <div class="row">
-          <div class="col card__wrapper4">
-            <img class="d-block w-100" src="assets/img/products/bag.jpg" alt="Second slide">
-          </div>
-          <div class="col card__wrapper4">
-            <img class="d-block w-100" src="assets/img/products/bag.jpg" alt="Second slide">
-          </div>
-          <div class="col card__wrapper4">
-            <img class="d-block w-100" src="assets/img/products/bag.jpg" alt="Second slide">
-          </div>
-          <div class="col card__wrapper4">
-            <img class="d-block w-100" src="assets/img/products/bag.jpg" alt="Second slide">
-          </div>
-          <div class="col card__wrapper4">
-            <img class="d-block w-100" src="assets/img/products/bag.jpg" alt="Second slide">
-          </div>
-          <div class="col card__endwrapper">
-            <img class="d-block w-100" src="assets/img/products/bag.jpg" alt="Second slide">
-          </div>
-        </div>
-      </section>
+      </div>
     </section>
+    
+
+
+    <!-- fourth main section our brands here -->
+    <section class="container">
+      <div class="text-center">
+        <h5 class="text-dark font-weight-bold heading__letterspacing heading__hd1">
+          OUR BRANDS
+        </h5>
+        <p class=" d-inline">
+          <img class="fd__heading" src="assets/img/icons/substract.png" alt="" />
+          <img src="assets/img/icons/down-arrow-black-button.png" alt="" />
+          <img class="fd__heading" src="assets/img/icons/substract.png" alt="" />
+        </p>
+      </div>
+      <div class="row">
+        <div class="col card__wrapper4">
+          <img class="d-block w-100" src="assets/img/products/bag.jpg" alt="Second slide">
+        </div>
+        <div class="col card__wrapper4">
+          <img class="d-block w-100" src="assets/img/products/bag.jpg" alt="Second slide">
+        </div>
+        <div class="col card__wrapper4">
+          <img class="d-block w-100" src="assets/img/products/bag.jpg" alt="Second slide">
+        </div>
+        <div class="col card__wrapper4">
+          <img class="d-block w-100" src="assets/img/products/bag.jpg" alt="Second slide">
+        </div>
+        <div class="col card__wrapper4">
+          <img class="d-block w-100" src="assets/img/products/bag.jpg" alt="Second slide">
+        </div>
+        <div class="col card__endwrapper">
+          <img class="d-block w-100" src="assets/img/products/bag.jpg" alt="Second slide">
+        </div>
+      </div>
+    </section>
+
   </main>
   <footer class="footer bg-dark text-white">
     <section>
@@ -297,118 +228,93 @@
         <!-- first section -->
         <div class="container">
           <div class="row">
-            <div class="col-sm">
-              <div class="footer__ullenght">
+            <div class="col-sm footer__colul">
+              <div class="footer__ullenght1">
                 <img class="p-2" src="assets/img/logo/logo.svg" alt="" />
-                <ul class="footer__ul footer__ul2">
+                <!-- fontawesome was used to replace list items -->
+                <ul class="footer__ul1">
                   <li class="p-2">
                     <a href="#" class="text-white">
-                      <span class="fas fa-map-marker-alt fa-lg"></span>
-                      42 Montgomery Road Yaba
+                      <i class="fas fa-map-marker-alt border border-white rounded-circle footer__icon1 footer__fontawesome"></i> 42 Montgomery Road Yaba
                     </a>
                   </li>
                   <li class="p-2">
                     <a href="#" class="text-white">
-                      <span class="fas fa-map-marker-alt fa-lg"></span>
-                      42 Montgomery Road Yaba
-                    </a>
+                      <i class="fas fa-map-marker-alt border border-white rounded-circle footer__icon1 footer__fontawesome"></i> 42 Montgomery Road Yaba</a>
                   </li>
                   <li class="p-2">
                     <a href="#" class="text-white">
-                      <span class="fas fa-map-marker-alt fa-lg"></span>
-                      42 Montgomery Road Yaba
+                      <i class="fas fa-map-marker-alt border border-white rounded-circle footer__icon1 footer__fontawesome"></i> 42 Montgomery Road Yaba
                     </a>
                   </li>
                 </ul>
               </div>
             </div>
-            <div class="col-sm">
+            <div class="col-sm footer__colul">
               <div>
                 <ul class="footer__ul2">
                   <span class="font-weight-bold p-2">COSTOMER CARE</span>
-                  <a href="#" class="text-white">
-                    <li class=" p-2">Contact Us</li>
-                  </a>
-                  <a href="#" class="text-white">
-                    <li class=" p-2">Site Map</li>
-                  </a>
-                  <a href="#" class="text-white">
-                    <li class=" p-2">Terms and Conditions</li>
-                  </a>
-                  <a href="#" class="text-white">
-                    <li class=" p-2">Gift & Vouchers</li>
-                  </a>
+                  <li class="p-2">
+                    <a href="#" class="text-white">Contact Us</a>
+                  </li>
+                  <li class="p-2">
+                    <a href="#" class="text-white">Site Map</a>
+                  </li>
+                  <li class="p-2">
+                    <a href="#" class="text-white">Terms and Conditions</a>
+                  </li>
+                  <li class="p-2">
+                    <a href="#" class="text-white">Gift & Vouchers</a>
+                  </li>
                 </ul>
               </div>
             </div>
-            <div class="col-sm">
+            <div class="col-sm footer__colul">
               <div>
-                <!-- <ul id="skills-list" class="list-unstyled"> -->
-                <!-- <span style="font-size: 48px; color: Dodgerblue;">
-                          <i class="fas fa-stroopwafel"></i>
-                        </span> -->
-                <!-- <li><a href="https://twitter.com/fontspring"><span class="fa fa-fw fa-pad-right fa-twitter"></span>Follow us on Twitter</a></li> -->
-                <ul class="footer__ul2 footer__ul3">
-                  <span class="font-weight-bold p-2">COSTOMER CARE</span>
+                <ul class="footer__ul3">
+                  <span class="font-weight-bold p-2 footer__heading">COSTOMER CARE</span>
                   <li class="p-2">
                     <a href="#" class="text-white">
-                      <span class="fas fa-angle-right fa-lg" style="font-size: 20px;color:#FFFFFF;"></span>
+                      <i class="fas fa-angle-right footer__fontawesome"></i>
                       Contact Us
                     </a>
                   </li>
                   <li class="p-2">
                     <a href="#" class="text-white">
-                      <span class="fas fa-angle-right fa-lg"></span>Site Map
+                      <i class="fas fa-angle-right footer__fontawesome"></i>
+                      Site Map
                     </a>
                   </li>
                   <li class="p-2">
                     <a href="#" class="text-white">
-                      <span class="fas fa-angle-right fa-lg">
-                      </span>Terms and Conditions
+                      <i class="fas fa-angle-right footer__fontawesome"></i>
+                      Terms and Conditions
                     </a>
                   </li>
                   <li class="p-2">
                     <a href="#" class="text-white">
-                      <span class="fas fa-angle-right fa-lg">
-                      </span>Gift & Vouchers
+                      <i class="fas fa-angle-right footer__fontawesome"></i>
+                      Gift & Vouchers
                     </a>
                   </li>
                 </ul>
-                <!-- <ul class="footer__ul2 footer__ul3">
-                  <span class="font-weight-bold p-2">COSTOMER CARE</span>
-                  <a href="#" class="text-white">
-                    <li class=" p-2"><i class="fas fa-angle-right"></i>Contact Us</li>
-                  </a>
-                  <a href="#" class="text-white">
-                    <li class=" p-2 d-flex justify-content-between text-white">
-                      <p class="mb-">Site Map</p>
-                      <img src="assets/plugins/fontawesome/svgs/solid/angle-right.svg" />
-                    </li>
-                  </a>
-                  <a href="#" class="text-white">
-                    <li class=" p-2">Terms and Conditions</li>
-                  </a>
-                  <a href="#" class="text-white">
-                    <li class=" p-2">Gift & Vouchers</li>
-                  </a>
-                </ul> -->
               </div>
             </div>
-            <div class="col-sm">
-              <div class="footer__ul3lenght">
-                <ul class="footer__ul2">
-                  <span class="font-weight-bold p-2">NEWSLETTER</span>
-                  <li class="text-justify p-2 footer__ul3">
+            <!-- fontawesome was used to replace list items -->
+            <div class="col-sm footer__colul">
+              <div class="footer__ullenght3">
+                <ul class="footer__ul3">
+                  <span class="font-weight-bold p-2 footer__heading">NEWSLETTER</span>
+                  <li class="p-2 text-justify">
                     <a href="#" class="text-white">
-                      <span class="fas fa-angle-right fa-lg">
-                      </span>
+                      <i class="fas fa-angle-right footer__fontawesome"></i>
                       <p>Lorem Ipsum is simple the dummy text of the printing and typesetting industry. Lorem Ipsum has been
                         the industry's standard dummy text ever since the 1500s.</p>
                     </a>
                   </li>
-                  <li class="footer__ul3">
-                    <span class="fas fa-angle-right fa-lg"></span>
+                  <li>
                     <div class="input-group mb-3">
+                      <i class="fas fa-angle-right footer__fontawesome"></i>
                       <input type="text" class="form-control text-white bg-dark footer_searchinput" placeholder="Email" aria-label="Recipient's username"
                         aria-describedby="basic-addon2">
                       <div class="input-group-append">
@@ -419,7 +325,7 @@
                       </div>
                     </div>
                   </li>
-                  <div class="d-inline">
+                  <div class="d-inline footer__heading">
                     <a href="#" class="text-white">
                       <img src="assets/img/icons/facebook-logo.png" alt="" class="border border-white footer__ul2 footer__mediaicons" />
                     </a>
@@ -442,9 +348,9 @@
           </div>
         </div>
       </section>
-
+      <br>
+      <br>
       <!-- second footer section -->
-      <!-- footer__bordcolor -->
       <section class="border-top border-bottom">
         <nav class="navbar navbar-expand-lg footer__wrapper2">
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -478,7 +384,9 @@
         </nav>
       </section>
       <!-- third footer section -->
-      <p class="footer__wrapper2">Copyyright &copy; 2018, Premium Frontend Guys</p>
+      <section class="col-lg-12 col-md-12 col-sm-12 col-xs-12 footer__wrapper2">
+        <p>Copyright &copy; 2018, Premium Frontend Guys</p>
+      </section>
     </section>
   </footer>
   <script src="assets/plugins/jquery.min.js"></script>
