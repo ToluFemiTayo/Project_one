@@ -61,7 +61,7 @@ main {
 /* first main section */
 .first__wrapper {
     height: 570px;
-    padding: 0 0 60px 0;
+    padding: 0 0 60px;
 }
 
 .card__wrapper1 {
@@ -101,12 +101,12 @@ main {
 
 /* second main section: featured products */
 .second__wrapper {
-    height: 425px;
-    padding: 0 0 60px 0;
+    height: 440px;
+    padding: 0 0 60px;
 }
 .featuredprod__wrapper2 {
     width: 278px;
-    height: 250px;
+		height: 250px;
     padding: 0 10px 10px 0;
 }
 .card__endwrapper2 {
@@ -117,7 +117,7 @@ main {
 }
 .featuredprod__wrapper2 img{
     width: 100%;
-    height: 100%;
+		height: 100%;
 }
 .featuredprod__userwrapper {
     width: 275px;
@@ -134,11 +134,33 @@ main {
 
 
 /* third main section: latest from blog */
+.third__wrapper {
+    height: 465px;
+		padding: 0 0 60px;
+}
+.blog__text {
+    padding: 20px 0 0;
+}
+.blog__wrap {
+	width: 278px;
+	height: 420px;
+	padding: 0 10px 10px 0;
+}
+.blog__imgtext {
+    width: 100%;
+    padding: 0;
+}
+.longline {
+    width: 100%;
+		height: 20px; 
+}
 /* third main section: latest from blog */
 
 
 /* fourth main section: our brands */
-
+.fourth__wrapper4 {
+	padding: 60px 0 0;
+}
 .card__wrapper4 {
     padding: 0 10px 0 0;
 }
@@ -150,13 +172,13 @@ main {
 
 /* footer */
 .footer {
-    height: 500px;
+    height: 450px;
 }
 .footer__wrapper1 {
     padding: 60px 60px 0;
 }
 .footer__wrapper2 {
-    padding:  10px 120px 20px;  
+    padding:  10px 60px 20px;  
 }
 .footer__icon1 {
   padding: 10px;
@@ -173,7 +195,7 @@ main {
   padding: 0 0 20px 0;
 }
 .footer__colul {
-  width: 400px;
+  width: 380px;
   height: 260px;
   padding: 0;
 }
@@ -195,7 +217,7 @@ main {
   width: 280px;
 }
 .footer__ullenght3 {
-  width: 260px;
+  width: 280px;
 }
 .footer_searchinput { 
   height: 34px;
